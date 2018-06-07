@@ -4,16 +4,16 @@
 #include "stdafx.h"
 #include <iostream>
 using namespace std;
-//Soruda istenilen bilgilere tam olarak ulaşamadım fakat toplam 32 atın yerleşimini göstermek istedim.
+//Soruda istenilen bilgilere tam olarak ulasamadim fakat toplam 32 atin yerlesimini gÃ¶stermek istedim.
 int main()
 {
 	int sayac = 0;
 	int a[8][8] = { 1,0,1,0,1,0,1,0,
 					0,1,0,1,0,1,0,1 };
-	for (int k = 0; k < 4; k++) {   // 2li elemanların 4 kez yazıp 8 e tamamlaması
-		for (int i = 0; i < 2; i++) //sütun
+	for (int k = 0; k < 4; k++) {   // 2li elemanlarin 4 kez yazip 8 e tamamlamasi
+		for (int i = 0; i < 2; i++) //sÃ¼tun
 		{
-			for (int j = 0; j < 8; j++) //satır
+			for (int j = 0; j < 8; j++) //satir
 			{
 				if (a[i][j] == 1) //at olan adresler
 				{
