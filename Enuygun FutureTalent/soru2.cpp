@@ -14,10 +14,10 @@ int main()
 	cout << "Sayi Giriniz" << endl;
 	cin >> n;
 
-	for (i = 1; i <= n; i++) {      //satýr sayýsý
-		for (j = 1; j <= i; j++) {   // her satýrdaki sayý sayýsý
-			Factorial(sayac); //fonksiyonu çaðýrýyoruz sayaç deðerimizi parametre olarak gönderiyoruz
-			sayac++; //her faktöriyel sonunda sayaç deðerimizi artýrýp diðer sayýya geçiyoruz
+	for (i = 1; i <= n; i++) {      //satir sayisi
+		for (j = 1; j <= i; j++) {   // her satirdaki sayi sayisi
+			Factorial(sayac); //fonksiyonu Ã§agriyoruz sayaÃ§ degerimizi parametre olarak gÃ¶nderiyoruz
+			sayac++; //her faktÃ¶riyel sonunda sayaÃ§ degerimizi artirip diger sayiya geÃ§iyoruz
 		}
 		cout << endl;
 	}
