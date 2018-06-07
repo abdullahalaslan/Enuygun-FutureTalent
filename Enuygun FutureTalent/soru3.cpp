@@ -22,14 +22,14 @@ int main()
 double us(int sayi, int ussu) {
 
 	double sonuc = 1;
-	for (int i = 1; i <= ussu; i++) //Üs alma iþlemini ayrý bir fonksiyonda tanýmladým.
+	for (int i = 1; i <= ussu; i++) //Ãœs alma islemini ayri bir fonksiyonda tanimladim.
 		sonuc = sonuc*sayi;
 	return sonuc;
 }
 
 void kokalma(int x, int y) {
 	double z = x;
-	int w = 1; // x0 baþlangýç deðeri
+	int w = 1; // x0 baslangic degeri
 	float e = 0.000001;
 	while (z - w > e) {
 		z = ((y - 1) * z + w) / y;
